@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>HIGHLANDS</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/White_logo800.png" alt="">
+        </div>
+        <nav class="menu">
+            <a href="#">KHÁM PHÁ BƯU ĐIỆN</a>
+            <a href="#">QUÁN CÀ PHÊ</a>
+            <a href="#">THỰC ĐƠN</a>
+            <a href="#">TIN TỨC</a>
+            <a href="#">VỀ CHÚNG TÔI</a>
+            <a href="#">NGHỀ NGHIỆP</a>
+            <!-- <a href="dangky.html">ĐĂNG KÝ</a> -->
+            <a><i class="fa-solid fa-user" onclick="showform()"></i></a>
+        </nav>
+        <div class="search"></div>
+    </header>
+    <!-- noi gi gio day -->
+
+    <div id="dangnhap">
+        <i class="fa-solid fa-delete-left vitri_dn" onclick="close_dn()"></i>
+        <img src="IMG/logo-login.png" alt="">
+        <h2>Đăng Ký Để Nhận Bản Tin</h2>
+        <input type="text" placeholder="User" class="fm"><br>
+        <input type="text" placeholder="Password" class="fm"> <br>
+        <button class="fmbt">Đăng Nhập</button>
+    </div>
+
+ 
+
+
+
+    <div class="slider">
+      <div class="slide">
+            <img src="IMG/Hinh1.png" alt="Photo1"/>
+        </div>
+      <div class="slide">
+            <img src="IMG/Hinh2.png" alt="Photo3"/>
+        </div> 
+      <div class="slide">
+            <img src="IMG/hinh3.jpg" alt="Photo2"/>
+        </div>
+      <div class="slide">
+            <img src="IMG/hinh4.png" alt="Photo3"/>
+        </div> 
+
+        <button class="btn-slide prev"><i class="fas fa-3x fa-chevron-circle-left"></i></button>
+        <button class="btn-slide next"><i class="fas fa-3x fa-chevron-circle-right"></i></button>
+      
+    </div>
+    <div class="dots-container">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+      <span class="dot" data-slide="3"></span>
+    </div>
+
+
+    <!-- haizzz -->
+    <!-- <div class="container">
+        <div class="col4">
+            <img class="img1" src="IMG/Citrus_Cafe_De_Tonic.jpg" alt="">
+            <h3>CITRUS COFFEE DETONIC</h3>
+            <h4>89.000 VND</h4>
+            <div class="nutmua"><a href="page.html">Chi Tiết</a></div>
+        </div>
+        
+        <div class="col4">
+            <img class="img1" src="IMG/Cappuccino.jpg" alt="">
+            <h3>CAPPUCINO</h3>
+            <h4>99.000 VND</h4>
+            <div class="nutmua"><a href="page.html">Chi Tiết</a></div>
+        </div>
+
+        <div class="col4">
+            <img class="img1" src="IMG/Cold_Brew.jpg" alt="">
+            <h3>COLD BREW</h3>
+            <h4>69.000 VND</h4>
+            <div class="nutmua"><a href="COLD BREW.html">Chi Tiết</a></div>
+        </div>
+
+        <div class="col4">
+            <img class="img1" src="IMG/PhinDi_Cassia.jpg" alt="">
+            <h3>PHINDI CASSIA</h3>
+            <h4>69.000 VND</h4>
+            <div class="nutmua"><a href="#">Chi Tiết</a></div>
+        </div>
+    </div>
+ -->
+
+    
+    <!-- <div class="container">
+        <div class="col4">
+            <img class="img1" src="IMG/Chanh_Da_Vien.jpg" alt="">
+            <h3>CHANH ĐÁ VIÊN</h3>
+            <h4>55.000 VND</h4>
+            <div class="nutmua"><a href="#">Mua Ngay</a></div>
+        </div>
+        
+        <div class="col4">
+            <img class="img1" src="IMG/Tra_Thanh_Dao.jpg" alt="">
+            <h3>TRÀ THANH ĐÀO</h3>
+            <h4>59.000 VND</h4>
+            <div class="nutmua"><a href="page-teathanhdao.html">Mua Ngay</a></div>
+        </div>
+
+        <div class="col4">
+            <img class="img1" src="IMG/Tra_Thach_Vai2.jpg" alt="">
+            <h3>TRÀ THẠCH VẢI</h3>
+            <h4>59.000 VND</h4>
+            <div class="nutmua"><a href="#">Mua Ngay</a></div>
+        </div>
+
+        <div class="col4">
+            <img class="img1" src="IMG/Tac_Da_Vien.jpg" alt="">
+            <h3>TẮC ĐÁ VIÊN</h3>
+            <h4>55.000 VND</h4>
+            <div class="nutmua"><a href="#">Mua Ngay</a></div>
+        </div>
+    </div> -->
+
+    <!-- giohang -->
+
+
+    <div id="information">
+        <i class="fa-solid fa-circle-xmark vitri" onclick="closed()"></i>
+        <img src="" alt="">
+        <h1> Đăng Kí Ngay </h1>
+        <input id="hoten" type="text" placeholder="họ tên " class="fm_input">
+        <input id="dienthoai" type="number" placeholder="điện thoại " class="fm_input">
+        <input id="email" type="text" placeholder="email " class="fm_input" >
+        <button onclick="xacnhan()">Xác Nhận </button>
+    </div>
+    <div class="container">
+        
+        <div id="giohang">
+         
+        </div>
+        <div class="row">
+            <div class="sp">
+                <img class="one" src="IMG/Cold_Brew.jpg" alt="">
+                <h5 masp="id001">COLD BREW</h5>
+                <h4 dongia="70000">70.000 VND</h4>
+                <input id="fm" type="number">
+                <button onclick="muangay(this)"> Mua Ngay </button>
+            </div>
+            <div class="sp">
+                <img class="one" src="IMG/PhinDi_Cassia.jpg" alt="">
+                <h5 masp="id002">PHINDI CASSIA</h5>
+                <h4 dongia="180000">180.000 VND</h4>
+                <input id="fm" type="number">
+                <button onclick="muangay(this)"> Mua Ngay </button>
+            </div>
+            <div class="sp">
+                <img class="one" src="IMG/Cappuccino.jpg" alt="">
+                <h5 masp="id003">CAPPUCINO</h5>
+                <h4 dongia="40000">40.000 VND</h4>
+                <input id="fm" type="number">
+                <button onclick="muangay(this)"> Mua Ngay </button>
+            </div>
+            <div class="sp">
+                <img class="one" src="IMG/Citrus_Cafe_De_Tonic.jpg" alt="">
+                <h5 masp="id004">CITRUS COFFEE DETONIC</h5>
+                <h4 dongia="100000">100.000 VND</h4>
+                <input id="fm" type="number">
+                <button onclick="muangay(this)"> Mua Ngay </button>
+            </div>
+            <div class="sp">
+                <img class="one" src="IMG/Tac_Da_Vien.jpg" alt="">
+                <h5 masp="id005">TẮC ĐÁ VIÊN</h5>
+                <h4 dongia="65000">65.000 VND</h4>
+                <input id="fm" type="number">
+                <button onclick="muangay(this)"> Mua Ngay </button>
+            </div>
+            <div class="sp">
+                <img class="one" src="IMG/Chanh_Da_Vien.jpg" alt="">
+                <h5 masp="id006">CHANH ĐÁ VIÊN</h5>
+                <h4 dongia="90000">90.000 VND</h4>
+                <input id="fm" type="number">
+                <button onclick="muangay(this)"> Mua Ngay </button>
+            </div>
+            <div class="sp">
+                <img class="one" src="IMG/Tra_Thach_Vai2.jpg" alt="">
+                <h5 masp="id007">TRÀ THẠCH VẢI</h5>
+                <h4 dongia="95000">95.000 VND</h4>
+                <input id="fm" type="number">
+                <button onclick="muangay(this)"> Mua Ngay </button>
+            </div>
+            <div class="sp">
+                <img class="one" src="IMG/Tra_Thanh_Dao.jpg" alt="">
+                <h5 masp="id008">TRÀ THANH ĐÀO</h5>
+                <h4 dongia="290000">290.000 VND</h4>
+                <input id="fm" type="number">
+                <button onclick="muangay(this)"> Mua Ngay </button>
+            </div>
+            
+           
+        </div>
+    </div>
+
+<!-- giohang 
+    -->
+    
+    <script src="sanpham.js"></script>
+    <div id="footer">
+        <div class="box">
+            <p>Cung cấp sản phẩm với chất lượng an toàn cho quý khách</p>
+            <br>
+            <div class="logo">
+                <img src="IMG/logonho.png" alt="">
+            </div>
+        </div>
+        <div class="box">
+            <h3>NỘI DUNG</h3>
+            <ul class="quick-menu">
+                <div class="item">
+                    <a href="">Trang chủ</a>
+                </div>
+                <div class="item">
+                    <a href="">Sản phẩm</a>
+                </div>
+                <div class="item">
+                    <a href="">Blog</a>
+                </div>
+                <div class="item">
+                    <a href="">Liên hệ</a>
+                </div>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>LIÊN HỆ</h3>
+            <form action="">
+                <input type="text" placeholder="Địa chỉ email">
+                <button>Nhận tin</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
