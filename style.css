@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#dangnhap{
+    display: none;
+    position: fixed;
+    width: 300px;
+    top: 100px;
+    left: calc(50% - 150px);
+    z-index: 1;
+    background-color: gray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+#dangnhap img{
+    width: 100%;
+    border-radius: 10px;
+}
+.fm{
+    width: 94%;
+    margin: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+}
+#dangnhap h3{
+    margin: 5px;
+    color: #fff;
+}
+.fmbt {
+    border-radius: 5px;
+    padding: 5px;
+}
+.fmbt:hover{
+    color: #B22830;
+    background-color: #53382C;
+    padding: 5px;
+}

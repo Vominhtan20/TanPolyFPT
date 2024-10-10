@@ -1,0 +1,48 @@
+.authen-from{
+    border: 2px solid;
+    margin: 0 auto;
+}
+
+.authen img{
+    width: 580px;
+    height: 123px;
+    
+}
+.title{
+    font-size: 25px;
+    line-height: 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'open sans';
+    font-weight: normal;
+    text-align: center;
+}
+.authen-from{
+    background: #b4252d;
+    border: solid 10px #ffffff;
+    padding-bottom: 30px;
+    width: 580px;
+}
+
+.formPopup {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.colRight input {
+    width: 450px;
+    height: 35px;
+}
+/*
+#toggle {
+    display: none;
+}
+.click{
+    display: none;
+}
+#toggle:checked ~.click{
+    display: block;
+}
